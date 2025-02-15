@@ -1,0 +1,118 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 25px;
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark gray text */
+}
+#home {
+    margin-bottom: 40px; /* Adds space below the home section */
+    padding-bottom: 20px; /* Adds inner spacing */
+}
+
+
+/* Header Styling */
+header {
+    background-color: #2C3E50; /* Dark blue */
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+nav ul li a.button {
+    background-color: #3498db; /* Teal Blue */
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+nav ul li a.button:hover {
+    background-color: #2980b9; /* Darker Blue */
+}
+
+/* Main Section Styling */
+main {
+    padding: 60px;
+    text-align: center;
+}
+
+h2 {
+    color: #2C3E50; /* Dark Blue */
+}
+
+/* Grid Container */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-container section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Styling */
+footer {
+    background-color: #2C3E50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Buttons */
+button, .button {
+    background-color: #2ecc71; /* Soft Green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover, .button:hover {
+    background-color: #27ae60; /* Darker Green */
+}
+
+/* Chat Section */
+/* #chat {
+    background-color: #ecf0f1; /* Light Blue */
+   
+    
+/*} */
+#info{
+    text-decoration: none;
+}
+#chat {
+    background-color: #ecf0f1; /* Light Blue */
+    text-decoration: none;
+   
+    
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}
