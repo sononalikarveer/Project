@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: auto;
+}
+
+label {
+    display: block;
+    margin-top: 5px; /* Add margin to the top of the label */
+    margin-right: 20px; /* Add right margin to the label */
+}
+
+input {
+    width: calc(100% - 20px); /* Adjust width to account for right margin */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px; /* Add margin to the top of the input */
+    margin-right: 20px; /* Add right margin to the input */
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#register-response {
+    text-align: center;
+    margin-top: 20px;
+    color: green;
+}

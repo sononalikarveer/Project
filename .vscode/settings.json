@@ -1,0 +1,7 @@
+{
+    "graalvm.installations": [
+        "c:\\Java Program\\graalvm-jdk-22.0.2+9.1"
+    ],
+    "graalvm.home": "c:\\Java Program\\graalvm-jdk-22.0.2+9.1",
+    "java.home": "c:\\Java Program\\graalvm-jdk-22.0.2+9.1"
+}
